@@ -1,0 +1,137 @@
+.container {
+    width:100%;
+    height: 100vh;
+    background-color:#E0E8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 437px;
+    background-image: url('../images/pattern-background-desktop.svg');
+}
+
+.mainBox{
+    max-width: 450px;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;  
+    z-index: 999;
+    overflow: hidden;
+}
+
+.samarry {
+    font-size: 28px;
+    color: #1F2E55;
+    text-align: center;
+    font-weight:bold;
+    margin-top:45px;
+}
+.offer{
+    padding-left:  48px;
+    padding-right:  48px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+.audioPlan{
+    background-color: #F7F9FF;
+    display: flex;
+    /* justify-content: space-around; */
+    Width:354px;
+    Height:98px;
+   margin-left: 48px;
+   margin-top: 20px;
+   border-radius: 11px;    
+}
+.smallbox {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-left: 10px;    
+}
+.price h1{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;    
+    color: #1F2E55;
+}
+.price h2{
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #717FA6;
+}
+
+.change{
+    margin-left :100px;    
+}
+.change1{
+    color:#766CF1;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.change1:hover{
+    border-bottom:none;
+}
+.footer {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.footer p{
+    margin-top: 32px;
+    cursor: pointer;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1F2E55;
+}
+.paymant{
+    width:354px;
+    height: 50px;
+    background: #382AE1; 
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    margin-left: 48px;
+    margin-top:32px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+.paymant:hover{
+    background: #766CF1; 
+}
+
+.paymant h3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+
+
